@@ -1,3 +1,8 @@
+#Cuenta con un gráfico de burbujas que muestra los registro por grupo biológico en un año
+#especifico y la procedencia, el tamaño de la burbuja corresponde al número de ejemplares. El
+#gráfico de barras corresponde al tipo de procedencia de las aves en el país seleccionado.
+# las consultas son: Por procedencia, país y grupo biológico.
+
 import polars as pl
 import plotly
 import plotly.express as px
