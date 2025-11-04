@@ -1,3 +1,9 @@
+#“Ejemplares por colección y país en el SNIB”
+##Cuenta con un gráfico de barras con filtro del año mostrando el total de registros de las principales
+#colecciones y un gráfico de barras horizontales con el total de ejemplares según el país
+#seleccionado.
+#Consultas: Por colección, Por año de colecta u observación y por país
+
 import polars as pl
 import plotly
 import plotly.express as px
