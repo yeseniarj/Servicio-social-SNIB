@@ -25,8 +25,6 @@ snib_lazy_df = pl.scan_parquet(parquet_path)
 valores_excluir = ["NO APLICA", " ", "NO DISPONIBLE", "", "NaN", "null", None]
 N = 10
 
-snib_lazy_df = pl.scan_parquet(parquet_path)
-
 final_polars_df = (
     snib_lazy_df
     .filter(
