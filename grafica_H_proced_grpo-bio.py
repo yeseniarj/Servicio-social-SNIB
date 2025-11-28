@@ -128,7 +128,7 @@ fig = px.bar(
         "conteo": "Número de Ejemplares",
         "procedenciaejemplar_mapeado": "Procedencia"
     },
-    title="Procedencia de grupos biológicos (ordenados de mayor a menor)"
+    title= "Procedencia de grupos biológicos"
 )
 
 fig.update_layout(
