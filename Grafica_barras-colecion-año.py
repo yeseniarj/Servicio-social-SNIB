@@ -78,7 +78,7 @@ fig = px.bar(
     x="aniocolecta",
     y="conteo",
     color="coleccion",
-    title=f'Top {N} Colecciones por Año - SNIB (incluye grupo "Otras")',
+    title=f'Top {N} Colecciones por año en el SNIB',
     labels={
         "aniocolecta": "Año de Colecta",
         "conteo": "Número de Registros",
