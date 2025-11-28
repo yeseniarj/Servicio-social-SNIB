@@ -1,5 +1,8 @@
 # ============================================================
-# DASHBOARD SNIB — 
+# Ejemplares por coleccion y pais en el SNIB.
+#Cuenta con una grafica de barras con filtro para un  año  especifico, mostrando el top 10 de 
+#colecciones y un grafico de barras horizontlales para el total de ejemplares segun el pais selecionado
+#Consultas solicitados por el SNIB: Por coleccion, por año de colecta, obsevacion y por pais
 # ============================================================
 
 import polars as pl
