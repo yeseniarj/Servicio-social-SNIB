@@ -84,7 +84,7 @@ fig = px.sunburst(
         "generovalido"
     ],
     values="cantidad",
-    title="Distribución taxonómica del SNIB",
+    title="Distribución taxonómica del SNIB de Reino a Género",
     width=1200,
     height=850,
 )
